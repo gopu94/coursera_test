@@ -1,0 +1,23 @@
+body{
+	margin: 0px;
+}
+div{
+	background: yellow;
+	
+    border: 5px blue;   
+}
+.hf{
+	height: 100px;
+	width:100%;
+    background-color: green;
+}
+.side{
+	height: 500px;
+	width: 100px;
+	background-color: red;
+}
+div:nth-child(4)
+{
+	float: right;
+	
+}

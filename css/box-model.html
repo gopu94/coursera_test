@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>box-model</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+
+		}
+		body
+		{
+			background-color: gray;
+			margin: 0;
+			padding: 0;
+		}
+		#box{
+			background-color: blue;
+			padding: 10px;
+			border: 5px solid black;
+			margin: 40px;
+			width: 500px;
+			height: 100px;
+		   box-sizing: border-box; 
+		 // box-sizing: content-box;
+		  overflow: auto;
+		}
+		#content{
+			background-color: #90EE90; //green
+
+			 
+		}
+		h1{
+			margin-bottom: 30px;
+		}
+	</style>
+</head>
+<body>
+   <h1> Box Model</h1>
+   <div id="box">
+   	<div id="content"> tesing css box model and content model her lets find out how its works-basic testing-Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task. Programming involves tasks such as: analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms in a chosen programming language (commonly referred to as coding).[1][2] The source code of a program is written in one or more languages that are intelligible to programmers, rather than machine code, which is directly executed by the central processing unit.</div>
+    hello there
+   </div>
+   <div>checking the overflow of content</div>
+</body>
+</html>

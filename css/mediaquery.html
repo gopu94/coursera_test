@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Media Query</title>
+	<style>
+		h1{
+			color: gold;
+			text-align: center;
+		}
+		p{
+			background-color: red;
+			height: 60px;
+			width: 40px;
+		}
+		@media(min-width: 1200px){
+			#p1{
+			background-color: blue;
+			height:500px;
+			width: 300px;
+			}
+		@media(min-width: 600px) and (max-width:1199px){
+			#p2{
+				background-color: red;
+				height:200px;
+				width: 300px;
+			}
+		}
+		}
+
+	</style>
+</head>
+ <body>
+	<h1>Media query</h1>
+	<p id="p1"></p>
+    <p id="p2"></p>
+</body>
+</html>

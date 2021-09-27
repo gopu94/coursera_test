@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Psuedo-selectors</title>
+	<style>
+		header li
+		{
+			list-style:none;
+			 font-size: 30px; 
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid green;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+				
+		a:visited
+		{
+			color:red;
+			
+		a:link
+		{
+			color: white;
+		};	
+		}
+		a:hover
+		{
+			color:violet;
+		
+		}
+		a:active
+		{
+			color:yellow;
+		}
+		div:first-child
+		{
+			color:red;
+			font-size: 20px;
+		}
+		div:hover:nth-child(5)
+		{
+			color:green;
+			font-size: 25px;
+		}
+		section div:nth-child(odd)
+		{
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<header>Psuedo selectors</header>
+	<header>
+		<ul>
+			<li><a href="https://gopu94.github.io/coursera_test/html/back%20to%20link.html" target="_blank">LINK</a></li>
+			<li><a href="https://gopu94.github.io/coursera_test/html/back%20to%20link.html" target="_blank">ACTIVE</a></li>
+			<li><a href="https://gopu94.github.io/coursera_test/html/back%20to%20link.html" target="_blank">HOVER</a></li>
+			<li><a href="https://gopu94.github.io/coursera_test/html/back%20to%20link.html" target="_blank">VISITED</a></li>
+		</ul>
+	</header>
+	<section>
+		<div>DIV 1</div>
+		<div>DIV 2</div>
+		<div>DIV 3</div>
+		<div>DIV 4</div>
+		<div>DIV 5</div>
+		<div>DIV 6</div>
+		<div>DIV 7</div>
+		<div>DIV 8</div>
+		<div>DIV 9</div>
+		<div>DIV 10</div>
+		<div>DIV 11</div>
+		<div>DIV 12</div>
+		<div>DIV 13</div>
+		<div>DIV 14</div>
+		<div>DIV 15</div>
+	</section>
+
+
+</body>
+</html>
